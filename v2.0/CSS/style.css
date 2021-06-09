@@ -7,15 +7,23 @@ body {font: 400 15px/1.8 Lato, sans-serif;color: #777;}
 h3, h4 {margin: 10px 0 30px 0;letter-spacing: 10px; font-size: 20px;color: #111;}
 p{margin-bottom: 10px;}
 
+#Sobre > p:not(.text-center){text-align: justify;}
+
+footer{padding: 20px 50px; text-align: center;} 
+footer a{text-decoration: none; color: rgb(184, 184, 184);}
+footer a:hover{color: white;}
+
 .list-group{list-style-type: none;margin-bottom: 15px;}
 .list-group-item{padding: 10px 15px; background-color: #fff; border: 1px solid #ddd;}
 .text-center{text-align: center;}
+#Cadastro h3, #Cadastro p{text-align: center;}
 
 /* EXEPTIONS */
 .thumbnail p, .thumbnail h3{color: #2d2d30;}
 
 .bg-home{width: 100%;height: auto;}
 .bg-1{background-color: #2d2d30; color: #bdbdbd; font-style: italic;}
+.bg-2{font-style: italic;}
 .bg-1 h3{color: white;}
 
 /* IMAGES */
@@ -30,16 +38,19 @@ img{border:0; vertical-align:middle;}
 }
 
 .container{padding: 80px 120px; box-sizing: border-box; display: block;}
-.pearson{border: 10px solid transparent; margin-bottom: 25px; width: 80%; height: 80%; opacity: 0.7;}
+.pearson{border: 10px solid transparent; margin-bottom: 25px; width: 80%; height: 80%; opacity: 0.85;}
 .thumbnail{padding: 0 0 15px 0; background-color: white; box-shadow: 0px 0px 20px rgb(14, 14, 14);margin: 0 0 20px;display: block; box-sizing: border-box;}
 .btn{border: 1px solid transparent; padding: 10px 20px; background-color: #333; color: white;display: inline-block; cursor: pointer;}
+.btn:hover{box-shadow: 0px 0px 8px rgb(134, 134, 134); font-size: 14px;}
+.form{padding: 25px;}
+.form input{padding: 14px 15px;width: 50%; margin: 0 0 10px 0;}
 
 /* BAR-TOP SETTINGS */
-.bar-top{width: 100%;position: sticky; top:0}
-.bar-top ul{margin: 0; padding: 0; list-style-type: none; background-color: rgba(0, 0, 0, 0.788); overflow: hidden;}
+.bar-top{width: 100%;position: sticky; top:0; z-index: 1;}
+.bar-top ul{margin: 0; padding: 0; list-style-type: none; background-color: rgb(0, 0, 0); overflow: hidden;}
 .bar-top li{float: left;}   
 .bar-top li a{display: block;color: white;text-decoration: none;padding: 12px;}  
-.bar-top li a:hover:not(.active){background-color: #111;}
+.bar-top li a:hover:not(.active){background-color: rgb(99, 99, 99);}
 .active {background-color: #04AA6D;}
 
 /* For Mobile */
