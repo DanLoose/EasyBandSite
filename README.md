@@ -1,2 +1,3 @@
+Para ver o site, clique no link abaixo:
 
-www.danloose.github.io/ProjetoBanda/v2.0
+https://danloose.github.io/ProjetoBanda/v2.0/
