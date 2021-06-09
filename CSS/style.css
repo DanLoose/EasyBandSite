@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foto{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+}
+
+.container, footer{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.buttom{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(0, 150, 67);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vh{
+    height: 100vh;
+}
+
+.card{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border: 1px solid gray;
+}
+
+/* PADDING SETTINGS */
+.padding-12{padding-top: 12px; padding-bottom: 12px;}
+.padding-16{padding-top: 16px; padding-bottom: 16px;}
+.padding-24{padding-top: 24px; padding-bottom: 24px;}
+.padding-32{padding-top: 32px; padding-bottom: 32px;}
+
+.padding-small{padding: 12px 24px;}
+.padding-big{padding: 24px 24px;}
+.padding-sides-32{padding-left: 32px; padding-right: 32px;}
+
+.margin-12{margin:6px 0;}
+
+
+/* GRID SETTINGS */
+
+[class *="g-"]{
+    width: 100%;
+}
+
+/* For mobile phones */
+
+.full{width: 100%; padding: 50px;}
+.half{float: left;width: 100%;padding: 24px;}
+.tird{float: left;width: 100%; padding:24px;}
+.quarter{float: left; width: 100%;padding: 24px;}
+
+/* For Desktop */
+@media only screen and (min-width: 601px) {
+.g-1{width: 8.3333%;}
+.g-2{width: 16.6666%;}
+.g-3{width: 24.99999%;}
+.g-4{width: 33.3333%;}
+.g-5{width: 41.6666%;}
+.g-6{width: 49.99999%}
+.g-7{width: 58.3333%;}
+.g-8{width: 66.6666%;}
+.g-9{width: 74.99999%;}
+.g-10{width: 83.3333%;}
+.g-11{width: 91.6666%;}
+.g-12{width: 99.99999%;}
+
+.half{float: left;width: 49.99999%;padding: 8px;}
+.third{float: left;width: 33.333333%; padding:8px;}
+.quarter{float: left; width: 24.999999%;padding: 8px;}
+}
+
+/* CENTERING ELEMENTS */
+.tCenter{text-align: center;}
+.centerAll{margin: 0;position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.iCenterV{justify-content: center;}
+.iCenterH{align-items: center;}
+
+/* BACKGROUND COLORS */
+.red{ background-color: red;}
+.blue{ background-color: blue;}
+.green{ background-color: green;}
+.black{ background-color: black;}
+.white{ background-color: white;}
+.pink{ background-color: pink;}
+.orange{ background-color: orange;}
+.lightBlue{background-color: lightblue;}
+.yellow{background-color: yellow;}
+
+/* ELEMENT COLORS */
+.cred{ color: red;}
+.cblue{ color: blue;}
+.cgreen{ color: green;}
+.cblack{ color: black;}
+.cwhite{ color: white;}
+.cpink{ color: pink;}
+.corange{ color: orange;}
+.clightBlue{color: lightblue;}
+.cyellow{color: yellow;}
+
+
+/* =========================================  ID SECTION ================================================ */
+#HS{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
